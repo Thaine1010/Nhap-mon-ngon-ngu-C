@@ -26,7 +26,7 @@ int main(){
     break;
 
 defaut:
- printf("vui long nhap phep tinh");
+ printf("vui long nhap thang");
   }
     
 
