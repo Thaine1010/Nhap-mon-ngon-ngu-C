@@ -9,10 +9,11 @@ int main(){
 	printf("Nhap soluong =");
 	scanf("%d",&soluong);
 	thanhtien=soluong*dongia;
-	if(soluong>=5 )
-	{thanhtien=(soluong*dongia)*0.75;
+	if(soluong>=5&&dongia>=500){
+	thanhtien=(soluong*dongia)*0.5;
 	printf("%d",thanhtien);
-	}else {printf("%d",thanhtien);}	
+	}else {printf("%d",thanhtien);
+	}	
   getchar();
   return 0;
 }
