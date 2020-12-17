@@ -6,7 +6,7 @@ int main(){
 	printf("Vui long nhap thang");
 	scanf("%d",&thang);
 	switch(thang) {
-		 case 2:
+         case 2:
      printf("28 ngay");
 	  	break;
      case 1:
