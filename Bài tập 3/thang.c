@@ -9,7 +9,7 @@ int main(){
 		 case 2:
      printf("28 ngay");
 	  	break;
-    case 1:
+     case 1:
      case 3:
      case 9:
      case 5:
