@@ -1,9 +1,10 @@
 
+
 #include <stdio.h>
 
 int main(){
 	int dongia,soluong;
-	int thanhtien;
+	float thanhtien;
 	printf("Nhap dongia =");
 	scanf("%d",&dongia);
 	printf("Nhap soluong =");
@@ -12,7 +13,7 @@ int main(){
 	if(soluong>=5&&dongia>=500){
 	thanhtien=(soluong*dongia)*0.5;
 	printf("%d",thanhtien);
-	}else {printf("%d",thanhtien);
+	}else {printf("%0.1f",thanhtien);
 	}	
   getchar();
   return 0;
