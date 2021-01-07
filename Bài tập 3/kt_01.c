@@ -21,7 +21,7 @@ return 0;
 #include <stdio.h>
 int main (){
 int a,b;
- printf("bang 1")
+ printf("bang 1");
 a=2 ,b=1;
 printf("%d*%d=%d\n",a,b,a*b);
 a=2,b=2;
