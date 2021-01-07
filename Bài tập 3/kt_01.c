@@ -21,20 +21,21 @@ return 0;
 #include <stdio.h>
 int main (){
 int a,b;
+ printf("bang 1")
 a=2 ,b=1;
 printf("%d*%d=%d\n",a,b,a*b);
 a=2,b=2;
 printf("%d*%d=%d\n",a,b,a*b);
 a=2,b=3;
 printf("%d*%d=%d\n",a,b,a*b);
-
+printf("bang 2")
 a=3,b=1;
 printf("%d*%d=%d\n",a,b,a*b);
 a=3,b=2;
 printf("%d*%d=%d\n",a,b,a*b);
 a=3,b=3;
 printf("%d*%d=%d\n",a,b,a*b);
-
+printf("bang 3")
 a=4,b=1;
 printf("%d*%d=%d\n",a,b,a*b);
 a=4,b=2;
