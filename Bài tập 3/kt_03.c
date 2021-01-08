@@ -1,3 +1,4 @@
+cach 1
 #include <stdio.h>
 
 int main(){
@@ -21,10 +22,26 @@ int main(){
 		}
   }
 	return 0;
-	}
+	} 
+cach 2
+#include <stdio.h>
 
+int main(){
+	int i;
+	
+	printf("Cac so le tu 1 den 20:\n ");
+	
+	for (i=1; i<=20; i++){
+    if((i==5)||(i==11)||(i==15)){
+     continue;
+    }
+    printf("%d\t",i);
+  
+  } 
+return 0;
+}
 
-
+while
 #include <stdio.h>
 
 int main(){
@@ -50,3 +67,4 @@ int main(){
   }
 	return 0;
 }
+
