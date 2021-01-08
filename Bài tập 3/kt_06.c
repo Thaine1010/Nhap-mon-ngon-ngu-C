@@ -1,0 +1,20 @@
+  
+#include <stdio.h>
+
+int main(){
+	int n, i, c, cout;
+
+	printf("\nNhap n: ");
+  scanf("%d", &n);
+
+	for (i=0; i<n; i++){
+ 		for (cout=n-1; cout>i; cout--){
+			printf("   ");
+		}
+		for (c=0; c<i*2+1; c++){
+ 			printf(" * ");
+ 		}
+	printf("\n");
+  	}
+  return 0;
+}
