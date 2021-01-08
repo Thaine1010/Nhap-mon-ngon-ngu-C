@@ -18,3 +18,33 @@ int main(){
   	}
   return 0;
 }
+
+
+
+  
+#include <stdio.h>
+
+int main(){
+	int n;
+  printf("Nhap n=");
+  scanf("%d",&n);
+  if(n==1){
+  printf("*");
+  }else if(n==2){
+  printf("  *\n");
+  printf("* * *\n");
+  }
+  else if(n==3){
+  printf("    *\n");
+  printf("  * * *\n");
+  printf("* * * * *\n");
+  }
+  else if(n==4){
+  printf("      *\n");
+  printf("    * * *\n");
+  printf("  * * * * *\n");
+  printf("* * * * * * *\n");
+  }
+
+return 0;
+}
