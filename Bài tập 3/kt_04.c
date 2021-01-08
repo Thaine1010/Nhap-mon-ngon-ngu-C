@@ -43,7 +43,6 @@ int main(){
 int n,i,sum=0;
 printf("Nhap n: "); 
 scanf("%d",&n);
-n=n;
 while(n!=0){
   sum=sum+n%10;
   n=n/10;
