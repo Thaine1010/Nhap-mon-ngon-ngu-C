@@ -40,7 +40,7 @@ return 0;
 WHILE
 #include <stdio.h>
 int main(){
-int n,i,sum=0;
+int n,sum=0;
 printf("Nhap n: "); 
 scanf("%d",&n);
 while(n!=0){
