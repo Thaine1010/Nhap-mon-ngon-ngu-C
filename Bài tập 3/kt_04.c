@@ -18,3 +18,18 @@ if (n>0){
 
 return 0 ;
 }
+
+
+
+#include <stdio.h>
+int main(){
+int n,i,sum=0;
+printf("Nhap n: "); 
+scanf("%d",&n);
+for(;n!=0;n/=10){
+i=n%10;
+sum+=i;   
+}
+printf("%d",sum);
+return 0;
+}
