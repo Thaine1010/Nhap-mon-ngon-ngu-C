@@ -12,21 +12,20 @@ int n,i,m;
 	for (i=0;i<n;i++){
 		printf("%d ",a[i]);
 	}
-	int check=0;
 	printf("Nhap so can kiem tra: ");
   scanf("%d",&m);
 	for (i=0; i<n; i++){
-		if (a[i]==m){
-			check+=1;
-		}	
-	}
-	
-	if (check > 0){
+  }
+	for (i=0; i<n; i++){
+	if (m==a[i]){
 		printf("Co ton tai");
-	}
-	else{
+    break;
+	}}
+  for (i=0; i<n; i++){
+	if(m==!a[i]){
 		printf("Khong ton tai");
+    break;
 	}
-	
-
-return 0;}
+  }
+  return 0;
+  }
