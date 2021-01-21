@@ -1,26 +1,37 @@
 #include <stdio.h>
-
 int main(){
-	int c;
-	int n;
-	printf("Nhap kich thuoc mang: ");
-  scanf("%d",&n);
-	int a[n];
-	for(c=0; c<n; c++){
-		printf("a[%d]: ",c);
-    scanf("%d",&a[c]);
-	}
-	 printf("Mang a[");
-   printf(" %d ",a[c]);
-   for (c=0; c<n; c++){
-	}
-	printf("]\n");
-	
-	int m;
-	int d=0;
-	printf("Nhap so can kiem tra: ");
+  int n,i,m;
+ printf ("Nhap kich thuoc mang :");
+ scanf("%d",&n);
+ int a[i];
+  for(i=0;i<n;i++){
+   printf("a[%d]: ",i);
+   scanf("%d",&a[i]);
+   }
+ printf("\nMang a[");
+  for(i=0;i<n;i++){
+   printf(" %d ",a[i]);
+  }
+  int c=0;
+ printf("Nhap so can kiem tra: ");
   scanf("%d",&m);
-	for (c=0; c<n; c++){
-		if (a[c]==m){
-			d=d+1;
-	
+	 for (i=0; i<n; i++){
+	 if (a[c]==m){
+    c+=1;
+    break;
+    }
+  }
+  if(c>=0){
+    printf("So phan tu co gia tri la %d: %d\n",m,c);
+		printf("Chi so ca cac phan tu tren la: ");
+  for(i=0;i<n;i++){
+    if(m==a[i]){
+      printf("%d",i+1);
+    }
+  }
+  }
+ else{
+		printf("Khong ton tai");
+	}
+return 0;
+}
