@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+	int c;
+	int n;
+	printf("Nhap kich thuoc mang: ");
+  scanf("%d",&n);
+	int a[n];
+	for(c=0; c<n; c++){
+		printf("a[%d]: ",c);
+    scanf("%d",&a[c]);
+	}
+	 printf("Mang a[");
+   printf(" %d ",a[c]);
+   for (c=0; c<n; c++){
+	}
+	printf("]\n");
+	
+	int m;
+	int d=0;
+	printf("Nhap so can kiem tra: ");
+  scanf("%d",&m);
+	for (c=0; c<n; c++){
+		if (a[c]==m){
+			d=d+1;
+	
