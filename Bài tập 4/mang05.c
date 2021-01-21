@@ -22,7 +22,7 @@ int n,i,m;
     break;
 	}}
   for (i=0; i<n; i++){
-	if(m>=!a[i]){
+	if(m==!a[i]){
 		printf("Khong ton tai");
     break;
 	}
