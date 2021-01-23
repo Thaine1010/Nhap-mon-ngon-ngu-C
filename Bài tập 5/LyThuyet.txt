@@ -39,8 +39,8 @@ d)Biến  cục bộ
  +Hàm do người dùng định nghĩa:định nghĩa theo nhu cầu người dùng.Các phần tiếp theo sẽ tìm hiểu về cú pháp khai báo, định nghĩa và gọi hàm laoij này
  f)Nguyên tăc hoạt động của hàm
  -1 chương trinh C khi dùng hàm sẽ hoạt đọng như sau
- +khối khai báo khai báo hàm trả về hay khonong trả về
- +khối hàm main
- +khối định nghĩa hàm là định nghĩa hàm trong main
+ +khối khai báo khai báo sử dụng thư viện(#inclde),khia báo hàm ,khai báo biến
+ +khối hàm main chứa các biến và lời gội hàm cần thiết cho chương trình
+ +khối định nghĩa hàm là định nghĩa hàm đã khai báo trong khối khai báo
  
  
