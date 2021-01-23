@@ -1,0 +1,46 @@
+Phần 1 
+a)Các bộ chữ viết trong ngôn ngữ C là:
+-26 chữ cái latinh hoa A,B,C,...Z
+-26 chữ cái lainh thường a,b,c,...z
+-10 chữ số thập phân 0,1,2,...9
+-Các kí tự toán học +,-,*,/,=,<,>.(,)
+-Các kí tự đặt biệt .."'_@#&!^[]{}
+-Dáu cách hay khoảng trống, xuống hàng(\n)tà tab(\t)
+b)Các kiểu dữ liệu cơ sở trong ngôn ngữ C là:
+-Kiểu số thực Float,double,long double
+-Kiểu số nguyên int,long
+-Kiểu kí tự được viết trong dấu nhấy đơn (')
+-Kiểu chuối ki tự được viết trong cặp dấu nháy kép ("")
+c)Định nghĩa Biến
+-Một chương trình ứng dụng có thể quản lí nhiều loại dữ liệu.Trong trường hợp này,chương trinh phải dịnh bộ nhớ cho mối đơn vị dữ liệu . Khi chỉ bộ nhớ có 2 diểm cần lưu ý sau:
++Kích thước bộ nhớ(kiểu dữ liệu)
++Vị trí bộ nhớ(địa chỉ bộ nhớ)
+-Biến chỉ đến một vùng bộ nhớ nơi mà các giá trị cụ thể lưu lại
+-Hệ điểu hành hoạt động như 1 giao diện giữa các ô nhớ và lâp trình viên
+  Cú pháp khai báo biến
+-Biến có thể khai báo theo cú pháp
+   Kiểu_dữ_liêu Tên_biến;
+d)Biến  cục bộ
+-Được khai báo bên trong các hàm hay khối lệnh(vd biến đếm lệnh lặp for
+-Chỉ có thể được sử dụng trong phạm vi hàm và khối lệnh
+-các tham số của hàm(nếu có)là các biến cục bộ
+  Biến toàn cục
+ -Được khai báo bên ngoài tất cả các ham(kể cả main)
+ -Thường được khai báo tại Khối khai báo
+ _Có thể được sử dụng tại mọi vị trí trong chương trinh như các hàm,khối lệnh lặp for hay ưhile
+ e)khái niệm hàm
+ - Hàm là một khối lệnh(nhiều lệnh)thực hiên một nhiệm vụ cụ thể nào đó(tính tổng,hiển thi thông báo dến người dùng)
+ -Một cách hiểu khác về hàm:hàm là một sự chia nhỏ của chương trình
+   Phân lại hàm
+ -Hàm có 2 loại
+ +Hàm thư viện chuẩn
+ >Là các hàm được xây dựng sẵn trong ngon gnuwx C như hàm scanf,printf
+ >Các hàm này được định nghĩa trong các tập tin có phần mở rộng .h như stidio.h,..CÁc tập tin nàyphải được nộp thông qua chỉ đinh #include
+ +Hàm do người dùng định nghĩa:định nghĩa theo nhu cầu người dùng.Các phần tiếp theo sẽ tìm hiểu về cú pháp khai báo, định nghĩa và gọi hàm laoij này
+ f)Nguyên tăc hoạt động của hàm
+ -1 chương trinh C khi dùng hàm sẽ hoạt đọng như sau
+ +khối khai báo khai báo hàm trả về hay khonong trả về
+ +khối hàm main
+ +khối định nghĩa hàm là định nghĩa hàm trong main
+ 
+ 
